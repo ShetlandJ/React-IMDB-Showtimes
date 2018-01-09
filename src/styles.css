@@ -1,0 +1,40 @@
+body {
+  margin: 20px;
+}
+
+#heading {
+  background-color: tomato;
+  margin: 0;
+  text-align: center;
+}
+
+.show-time-box {
+  background-color: grey;
+  border: 2px solid darkGrey;
+  width: 39%;
+}
+
+.film-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.film {
+  height: 25px;
+  display: flex;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.film:nth-child(2n) {
+  background-color: lightGrey;
+}
+
+.showtimes-text {
+  float: right;
+}
